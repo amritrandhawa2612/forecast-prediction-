@@ -25,12 +25,7 @@ except ImportError:
     sys.exit(1)
 
 
-# ── Configuration 
-
-DEFAULT_FILE = "2506_6536_BWA.xlsx"   # change to your file name / path
-STORE_ID     = 6536
-STATE_CODE   = "HH"                    # Hamburg — change for other stores
-GROWTH_RATE  = None                    # None = auto-detect from Ist vs VJ data
+                 # None = auto-detect from Ist vs VJ data
 
 
 # ── Data extraction 
